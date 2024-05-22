@@ -14,8 +14,7 @@
     color: white;
 }
 
-.img1 {
-    background-size: cover;
+.first-section .img1 {
     width: 100%;
     height: 500px;
     padding: 0px;
