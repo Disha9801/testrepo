@@ -114,6 +114,17 @@
 	}
 }
 
+@media (max-width: 576px) {
+  .card-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  .card-container .card {
+      margin-bottom: 1rem;
+  }
+}
+
 
 
   @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
@@ -347,6 +358,6 @@ h5 {
 
 .card {
   margin: 20px;
-  width: 300px;
+  width: 280px;
   height: 400px !important;
 }
