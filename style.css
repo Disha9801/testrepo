@@ -1,0 +1,333 @@
+.main-wrapper{
+  overflow: hidden;
+}
+
+.main-wrapper .btn-primary1{
+    background-color: #134563;
+    color: white;
+    font-size: 15px;
+}
+
+.first-section .img1 {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.main-wrapper .btn-primary2{
+    background-color: white;
+    color: #134563;
+    font-size: 15px;
+}
+
+.main-wrapper .btn-primary1:hover {
+    color: white;
+    background-color: #134563;
+    border-color: white;
+}
+
+.main-wrapper .btn-primary2:hover {
+    color: #134563;
+    background-color: white;
+    border-color: #134563;
+}
+
+
+.col2body {
+    background-color: #b8cad1;
+    padding: 45px;
+    line-height: 30px;
+    color: #134563;
+    font-size: 22px;
+    font-style: "Open Sans", sans-serif;
+    width: 100%;
+}
+
+.col2contents{
+    padding: 20px 30px;
+}
+
+.col2title{
+    padding-left: 25px;
+
+}
+
+.main-wrapper .btns{
+    margin-top: 45px;
+}
+
+.main-wrapper .col1 {
+    padding-right: 0;
+}
+
+.main-wrapper .col2 {
+    padding-left: 0;
+}
+
+.btn-lg{
+    width: 100%;
+}
+
+.nav-item{
+    padding-right: 90px;
+    font-size: 20px;
+}
+ 
+.nav-link {
+  position: relative;
+  background-color: transparent !important;
+  border: none !important; 
+  color:#134563!important;
+}
+.nav-link.active::after,
+.nav-link:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background-color: currentColor;
+  color: #134563;
+}
+.nav-link.active {
+  color:#134563!important;
+  font-weight: bold;
+}
+
+.nav-link.active,
+  .nav-link.active:hover,
+  .nav-link.active:focus {
+  color:#134563!important; 
+  }
+
+  @media screen and(max-width:500px) {
+  .nav{
+    display: flex !important;
+    overflow-x: auto !important;
+    flex-wrap: nowrap !important;
+
+  }
+	.nav-item {
+		display: inline-flex !important;
+		white-space: nowrap;
+	}
+}
+
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --green: #58a497;
+  --yellow: #e09449;
+  --lightgreen1: #a4bdb7;
+  --brown: #8b4448;
+  --gray: gray;
+  --lightgreen2: rgb(164, 189, 183, 0.5);
+  --box: #ededed;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background: #a4bdb7;
+}
+
+#keyprinciples ,p{
+  line-height: 30px;
+  color: #134563;
+  font-size: 22px;
+  font-style: "Open Sans", sans-serif;
+  width: 100%;
+}
+
+
+/* Content-1:Start */
+.box {
+  width: 350px;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  background: #ededed;
+}
+
+.box1 {
+  margin-top: 10px;
+}
+
+.content {
+  margin: 15px 2px;
+}
+
+.image img {
+  height: auto;
+  width: 120px;
+  border-radius: 50%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+.level {
+  font-size: 0.7em;
+  background-color: rgb(164, 189, 183, 0.5);
+  width: 50px;
+  padding: 3px;
+  border-radius: 5px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+
+  display: block;
+  margin: 0px auto 10px;
+}
+
+.name {
+  font-size: 1.25em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.job_title {
+  font-size: 0.65em;
+  font-weight: bolder;
+  color: gray;
+  margin-top: -2px;
+}
+
+.job_discription {
+  font-size: 0.7em;
+  color: gray;
+  margin: 10px 30px 20px;
+}
+
+.icons {
+  margin: 0px 30px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons button {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  font-size: 1em;
+}
+
+ion-icon:hover {
+  color: #58a497;
+  transition: 0.5s;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 20px 30px 0px;
+}
+
+.button .message {
+  background: #ededed;
+  border: 2px solid #000;
+}
+
+.button .connect {
+  background-color: #000;
+  color: #ededed;
+  border: none;
+}
+button.connect:hover {
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+button.message:hover {
+  letter-spacing: 1px;
+  transition: 0.5s;
+  background: rgba(88, 164, 151, 0.5);
+}
+/* Content-1:End */
+
+/* Content-2:Start */
+.box2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.box2 img {
+  width: 80px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 10px;
+}
+
+h5 {
+  font-weight: bolder;
+  font-size: 1em;
+}
+
+.row p {
+  font-size: 0.8em;
+}
+
+/* Content-2:End */
+
+@media screen and (max-width: 370px) {
+    .card {
+        width: 250px;
+    }
+}
+
+/* Responsiveness:Start */
+@media screen and (max-width: 480px) {
+
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+    .button button{
+        width: 250px;
+    }
+    button.connect{
+        margin-top: 10px;
+    }
+    .content2{
+        padding: 0px 20px;
+    }
+    .content2 img{
+        width: 60px;
+        height: 60px;
+    }
+}
+/* Responsiveness:End */
+
+
+.card {
+  margin-bottom: 20px;
+  margin-left: 5px;
+  width: 300px;
+  height: 400px !important;
+}
