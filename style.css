@@ -362,6 +362,11 @@ h5 {
   height: 400px !important;
 }
 
+.cardmd .card-text ,.card-body{
+  font-size: 10px;
+  align-items: center;
+}
+
 .cardsm{
   height: 400px !important; 
   width: 280px;
