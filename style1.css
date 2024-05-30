@@ -1,0 +1,289 @@
+
+.main-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    /* overflow: hidden; */
+}
+
+.second-section h2{
+    color: #134563;
+}
+
+.main-wrapper .btn-primary1{
+    background-color: #134563;
+    color: white;
+}
+
+.first-section .img1 {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.main-wrapper .btn-primary2{
+    background-color: white;
+    color: #134563;
+}
+
+.main-wrapper .btn-primary1:hover {
+    color: white;
+    background-color: #134563;
+    border-color: white;
+}
+
+.main-wrapper .btn-primary2:hover {
+    color: #134563;
+    background-color: white;
+    border-color: #134563;
+}
+
+.second-section .btn-primary{
+    background-color: #134563;
+    color: white;
+}
+
+.second-section .btn-primary:hover{
+    color: white;
+    background-color: #134563;
+    border-color:white;
+}
+
+.col2body {
+    background-color: #b8cad1;
+    padding: 45px;
+    line-height: 30px;
+    color: #134563;
+    font-size: 20px;
+    font-style: "Open Sans", sans-serif;
+    width: 100%;
+}
+
+.col2contents{
+    padding: 20px 30px;
+    
+}
+
+.col2title{
+    padding-left: 25px;
+
+}
+
+.main-wrapper .btns{
+    margin-top: 45px;
+}
+
+.main-wrapper .col1 {
+    padding-right: 0;
+}
+
+.main-wrapper .col2 {
+    padding-left: 0;
+}
+
+.btn-lg{
+    width: 100%;
+}
+
+.left-col-block{
+    width: 30%;
+    text-align: center;
+    left: 0;
+    background-color:#b8cad1;
+    padding-left: 30px;
+    overflow: hidden;
+  }
+
+.right-col-block{
+    width: 70%;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    justify-content: space-around;
+    padding-right: 150px;
+}
+
+.second-section{
+    padding-top: 0px;
+}
+
+.section-item{
+    line-height: 36px;
+    background-color: white;
+}
+
+.btn1 {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.btn-title{
+    padding-top: 15px;
+}
+
+.second-section .columns-block .right-col-block{
+    padding-top: 0;
+}
+
+.second-section .lftbtn{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.second-section .btn-primary{
+    margin-bottom: 15px;
+}
+
+.left-col-block .my-4 {
+    border-top: 2px solid black; 
+}
+
+.section-wrapper h2{
+    padding-left: 63px;
+}
+
+.rgt h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.rgt .section-title{
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-wrapper p{
+    background-color: white;
+    width: 100%;
+    line-height: 30px;
+    color: #134563;
+    font-size: 20px;
+    font-style: "Open Sans", sans-serif;
+}
+
+.section-wrapper li{
+    background-color: white;
+    width: 100%;
+    line-height: 30px;
+    color: #134563;
+    font-size: 20px;
+    font-style: "Open Sans", sans-serif;
+}
+
+.lft{
+    background-color: #b8cad1;
+    position: sticky;
+    top: 30px;
+    height: calc(100vh - 10%);
+    text-align: center;
+    overflow: auto;
+}
+
+.rgt{
+    position: absolute;
+    right: 0;
+}
+
+.section-wrapper .rgt{
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+.owl-carousel .small-card-img{
+    width: 70px;
+    height: auto;
+}
+
+.rgt .doctors-section1{
+    margin-bottom: 20px;
+}
+
+.doctors-section .card-img-top{
+    height: 70px;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.Patient-section .card-img-top{
+    height: 100px;
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.Patient-section .card{
+    height: 250px;
+    width: 200px;
+}
+
+.doctors-section .card{
+    height: 250px;
+}
+
+.Patient-section .card p{
+    font-size: 10px;
+    font-style: "Open Sans", sans-serif;
+    line-height: 15px;
+    color: #134563;
+    word-wrap: break-word; 
+}
+
+.Patient-section .card-body{
+    overflow: auto;
+}
+
+.doctors-section1 p{
+    font-size: 12px;
+    line-height: 15px;
+    font-style: "Open Sans", sans-serif;
+    word-wrap: break-word; 
+    color: #134563;
+    text-align: center;
+}
+
+.doctors-section1 h6{
+    color: #134563;
+    text-align: center;
+}
+
+.doctors-section1 .card-text{
+    background-color: #b8cad1;
+    color: #134563;
+}
+
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	background-color: #ccc;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+}
+
+.owl-nav button span {
+	font-size: 30px;
+	height: 100%;
+	display: block;
+	width: 100%;
+}
+.owl-carousel .owl-nav button.owl-prev {
+	left: -50px;
+}
+.owl-carousel .owl-nav button.owl-next {
+	right: 0;
+}
+.owl-carousel .owl-nav {
+	margin: 0;
+}
+
